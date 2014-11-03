@@ -9,7 +9,7 @@ yum install -y rpm-build redhat-rpm-config gcc gcc-c++ make
 yum install -y php54-{cli,pdo,mysql,common php54,cgi,fpm,devel,gd,mbstring,odbc,pear,snmp,bcmath,xmlrpc,tidy,xml,mssql,soap,pgsql}
 
 # mysql
-yum install -y MySQL-{client,devel,server,shared-compat}-5.6.21-1.el6.x86_64.rpm
+yum install -y  yum install http://dev.mysql.com/get/mysql-community-release-el6-5.noarch.rpm mysql-community mysql-community-{devel,server,client,common}
 
 
 
