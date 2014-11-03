@@ -5,3 +5,8 @@ if [ -e $keyfile ];then
 fi
 cp -f /vagrant/keys/ssh_config_file $HOME/.ssh/config
 
+privatefile=`dirname $0`/install-private.sh
+if [ -e $privatefile ];then
+    sh $privatefile
+fi
+

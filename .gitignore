@@ -1,3 +1,4 @@
 keys/private_key_for_github
 .vagrant
+scripts/install-private.sh
 
